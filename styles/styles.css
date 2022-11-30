@@ -1064,9 +1064,13 @@ body {
 }
 
 .catalog-product-card-price {
-  font-weight: 400;
-  text-align: right;
   min-width: 140px;
+  text-align: right;
+  margin: 0;
+}
+
+.catalog-product-card-price b {
+  font-weight: 400;
 }
 
 .buttons-wrapper {
